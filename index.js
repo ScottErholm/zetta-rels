@@ -13,3 +13,4 @@ module.exports.device = rel('device');
 module.exports.objectStream = rel('object-stream');
 module.exports.binaryStream = rel('binary-stream');
 module.exports.logStream = rel('log-stream');
+module.exports.query = rel('query');
