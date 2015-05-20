@@ -3,14 +3,17 @@ function rel(name){
   return base + name;
 }
 
-module.exports.self = 'self';
-module.exports.root = rel('root');
-module.exports.monitor = 'monitor';
-module.exports.peer = rel('peer');
-module.exports.peerManagement = rel('peer-management');
-module.exports.server = rel('server');
-module.exports.device = rel('device');
-module.exports.objectStream = rel('object-stream');
-module.exports.binaryStream = rel('binary-stream');
-module.exports.logStream = rel('log-stream');
-module.exports.query = rel('query');
+exports.self = 'self';
+exports.root = rel('root');
+exports.monitor = 'monitor';
+exports.peer = rel('peer');
+exports.peerManagement = rel('peer-management');
+exports.server = rel('server');
+exports.device = rel('device');
+exports.objectStream = rel('object-stream');
+exports.binaryStream = rel('binary-stream');
+exports.logStream = rel('log-stream');
+exports.query = rel('query');
+exports.metadata = rel('metadata');
+exports.type = rel('type');
+exports.instances = rel('instances');
