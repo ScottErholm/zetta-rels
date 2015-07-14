@@ -4,6 +4,7 @@ function rel(name){
 }
 
 exports.self = 'self';
+exports.edit = 'edit';
 exports.root = rel('root');
 exports.monitor = 'monitor';
 exports.peer = rel('peer');
