@@ -18,3 +18,4 @@ exports.query = rel('query');
 exports.metadata = rel('metadata');
 exports.type = rel('type');
 exports.instances = rel('instances');
+exports.events = rel('events');
