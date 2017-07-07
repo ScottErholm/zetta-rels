@@ -1,6 +1,6 @@
 {
   "name": "zetta-rels",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "Rels used in the Zetta API",
   "main": "index.js",
   "scripts": {
